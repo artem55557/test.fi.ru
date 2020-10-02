@@ -5,7 +5,7 @@
     <title>Test task fi.ru</title>
     <meta name="description" content="Test task fi.ru" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="img/favicon.png" />
+    <link rel="icon" href="images/favicon.png" />
     <meta property="og:image" content="" />
     <link rel="stylesheet" href="css/app.min.css" />
   </head>
@@ -13,6 +13,21 @@
   <body>
     <div class="container">
       @@include('_sidebar.html')
+      <div class="content">
+        <h1 class="content__title h1">Основы энергосбережения</h1>
+        @@include('_nav-block.html')
+        <div class="content__body">
+          @@include('_question-card.html')
+          <div class="question-help">
+            <a href="#" class="question-help__link">Олег, подскажи!</a>
+            <div class="question-help__img-wrap"><img src="images/Frame.svg" alt="Help"></div>
+          </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="right-side__avatar"><img src="images/avatar.png" alt=""> </div>
+      </div>
+    </div>
 
     <script src="js/app.min.js"></script>
   </body>
