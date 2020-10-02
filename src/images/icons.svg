@@ -1,0 +1,22 @@
+<svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 21 58" fill="none" xmlns="http://www.w3.org/2000/svg" id="arrow-r">
+    <path d="M0 0s1.784 1.153 2.592 2.945l9.016 20a5 5 0 0 1 0 4.11l-9.016 20C1.784 48.847 0 50 0 50h9-9V5z" fill="#CFEEE8" filter="url(#filter0_d)"></path>
+    <defs>
+      <filter id="filter0_d" x="0" y="0" width="20" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+        <feOffset dy="3"></feOffset>
+        <feGaussianBlur stdDeviation="4"></feGaussianBlur>
+        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.20 0"></feColorMatrix>
+        <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+        <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+      </filter>
+    </defs>
+  </symbol>
+  <symbol viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg" id="checked">
+    <path d="M3.15 7.415a.745.745 0 0 0 1.212 0L9.298.57a.188.188 0 0 0-.152-.298h-1.1a.746.746 0 0 0-.606.312l-3.682 5.11-1.67-2.316a.75.75 0 0 0-.606-.312h-1.1a.188.188 0 0 0-.152.298l2.92 4.05z" fill="#5D5C5C"></path>
+  </symbol>
+  <symbol viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg" id="Polygon">
+    <path d="M4.5 7L.603.25h7.794L4.5 7z" fill="#5790AD"></path>
+  </symbol>
+</svg>

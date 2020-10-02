@@ -34,6 +34,7 @@ $gutter: $grid-gutter-width;
 @include font('Roboto', italic, 400, '../fonts/roboto-italic-webfont.woff2');
 @include font('Roboto', normal, 700, '../fonts/roboto-bold-webfont.woff2');
 @include font('Roboto', italic, 700, '../fonts/roboto-bolditalic-webfont.woff2');
+@include font('Roboto', normal, 500, '../fonts/roboto-medium.woff2');
 
 // GENERAL DOCUMENT STYLES
 
@@ -44,6 +45,10 @@ $gutter: $grid-gutter-width;
 ::selection {
   background-color: $accent;
   color: #fff;
+}
+
+button:focus {
+  outline: none;
 }
 
 input, textarea {
@@ -60,4 +65,10 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
   color: $textcolor;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
